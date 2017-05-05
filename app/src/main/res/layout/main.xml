@@ -7,13 +7,9 @@
     tools:context="com.jec.cpalak.jec_cs_noticeboard.main">
 
 
-<TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:padding="16dp"
-            android:text="hello_world"
-            tools:context=".main" />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
 
 </android.support.constraint.ConstraintLayout>

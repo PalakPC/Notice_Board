@@ -120,6 +120,16 @@ public class saveSharedPreference {
                 // Staring Login Activity
                 _context.startActivity(i);
             }
+            else{
+                Intent i = new Intent(_context, main.class);
+                // Closing all the Activities
+                i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP|
+                        Intent.FLAG_ACTIVITY_CLEAR_TASK|
+                        Intent.FLAG_ACTIVITY_NEW_TASK);
+
+                // Staring Login Activity
+                _context.startActivity(i);
+            }
 
         }
 
