@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jec.cpalak.jec_cs_noticeboard.about">
+
+
+    <TextView
+        android:id="@+id/cse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About JEC CSE"
+        android:textSize="20sp"
+        android:onClick="aboutCSE"
+        android:clickable="true"
+        android:padding="20dp"
+        />
+
+    <TextView
+        android:id="@+id/dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Developer"
+        android:textSize="20sp"
+        android:onClick="aboutDev"
+        android:clickable="true"
+        android:padding="20dp"
+        />
+    <TextView
+        android:id="@+id/aboutApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About App"
+        android:textSize="20sp"
+        android:onClick="aboutApp"
+        android:clickable="true"
+        android:padding="20dp"
+        />
+</LinearLayout>

@@ -1,0 +1,137 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:8:22-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:9:22-64
+application
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:11:5-48:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\choud\.android\build-cache\585f44cbd98467297ac80e20a3d47a8b4f49f302\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\choud\.android\build-cache\bb4ab9164d65919cf6d834e066ee5a410338a29d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\choud\.android\build-cache\1e24adc9f598d7fa7fffe84057191d5004b3d6ce\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\choud\.android\build-cache\2dd6a8d9fe3e8b7582d64205fd23edb1e92fa2fd\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\choud\.android\build-cache\9b27746e28f3e362c03d5d2984afaea9be7fcdb4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\choud\.android\build-cache\87b399f536d52b94a24b74e42e2d24d3ee27dd86\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\choud\.android\build-cache\a5566ac14987c02dff01d414bc2371bb8b74f5e0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\choud\.android\build-cache\52542eb3734b9510f0362c2994172b43c0d167b8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\choud\.android\build-cache\406ae2eb4a6b399b9e36f52829229d11368612d7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\choud\.android\build-cache\81ff59f2a5acbcb75bf10e285b8c46d87047d1c4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\choud\.android\build-cache\6a781defc6779860d19014fafa3e9b3a2fea78c4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\choud\.android\build-cache\c96628c2318ef2b19eaf7a268c0a272f13fb85a1\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:14:9-41
+	android:supportsRtl
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:15:9-35
+	android:allowBackup
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:13:9-43
+	android:theme
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.jec.cpalak.jec_cs_noticeboard.MainActivity
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:17:9-24:20
+	android:label
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:18:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.jec.cpalak.jec_cs_noticeboard.main
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:26:9-33:20
+	android:label
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:27:13-33
+intent-filter#android.intent.action.MAIN
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:29:13-32:29
+activity#com.jec.cpalak.jec_cs_noticeboard.LoginActivity
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:34:9-40:20
+	android:label
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:36:13-45
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:35:13-42
+intent-filter#android.intent.action.Main
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:37:13-39:29
+action#android.intent.action.Main
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:38:25-66
+activity#com.jec.cpalak.jec_cs_noticeboard.about
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:41:9-47:20
+	android:label
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:43:13-49
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:42:13-34
+uses-sdk
+INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\choud\.android\build-cache\585f44cbd98467297ac80e20a3d47a8b4f49f302\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\choud\.android\build-cache\bb4ab9164d65919cf6d834e066ee5a410338a29d\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\choud\.android\build-cache\1e24adc9f598d7fa7fffe84057191d5004b3d6ce\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\choud\.android\build-cache\2dd6a8d9fe3e8b7582d64205fd23edb1e92fa2fd\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\choud\.android\build-cache\8193a8e395278c12ea67c39f971ed1618dc1d704\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\choud\.android\build-cache\9b27746e28f3e362c03d5d2984afaea9be7fcdb4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\choud\.android\build-cache\87b399f536d52b94a24b74e42e2d24d3ee27dd86\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\choud\.android\build-cache\a5566ac14987c02dff01d414bc2371bb8b74f5e0\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\choud\.android\build-cache\52542eb3734b9510f0362c2994172b43c0d167b8\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\choud\.android\build-cache\406ae2eb4a6b399b9e36f52829229d11368612d7\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\choud\.android\build-cache\81ff59f2a5acbcb75bf10e285b8c46d87047d1c4\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\choud\.android\build-cache\6a781defc6779860d19014fafa3e9b3a2fea78c4\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\choud\.android\build-cache\c96628c2318ef2b19eaf7a268c0a272f13fb85a1\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\choud\.android\build-cache\585f44cbd98467297ac80e20a3d47a8b4f49f302\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\choud\.android\build-cache\585f44cbd98467297ac80e20a3d47a8b4f49f302\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\choud\.android\build-cache\bb4ab9164d65919cf6d834e066ee5a410338a29d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\choud\.android\build-cache\1e24adc9f598d7fa7fffe84057191d5004b3d6ce\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\choud\.android\build-cache\2dd6a8d9fe3e8b7582d64205fd23edb1e92fa2fd\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\choud\.android\build-cache\8193a8e395278c12ea67c39f971ed1618dc1d704\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\choud\.android\build-cache\9b27746e28f3e362c03d5d2984afaea9be7fcdb4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\choud\.android\build-cache\87b399f536d52b94a24b74e42e2d24d3ee27dd86\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\choud\.android\build-cache\a5566ac14987c02dff01d414bc2371bb8b74f5e0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\choud\.android\build-cache\52542eb3734b9510f0362c2994172b43c0d167b8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\choud\.android\build-cache\406ae2eb4a6b399b9e36f52829229d11368612d7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\choud\.android\build-cache\81ff59f2a5acbcb75bf10e285b8c46d87047d1c4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\choud\.android\build-cache\6a781defc6779860d19014fafa3e9b3a2fea78c4\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\choud\.android\build-cache\585f44cbd98467297ac80e20a3d47a8b4f49f302\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\choud\.android\build-cache\585f44cbd98467297ac80e20a3d47a8b4f49f302\output\AndroidManifest.xml:26:9-47

@@ -6,8 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.jec.cpalak.jec_cs_noticeboard.about">
-
-
     <TextView
         android:id="@+id/cse"
         android:layout_width="match_parent"
@@ -16,9 +14,7 @@
         android:textSize="20sp"
         android:onClick="aboutCSE"
         android:clickable="true"
-        android:padding="20dp"
-        />
-
+        android:padding="20dp" />
     <TextView
         android:id="@+id/dev"
         android:layout_width="match_parent"
@@ -27,8 +23,7 @@
         android:textSize="20sp"
         android:onClick="aboutDev"
         android:clickable="true"
-        android:padding="20dp"
-        />
+        android:padding="20dp" />
     <TextView
         android:id="@+id/aboutApp"
         android:layout_width="match_parent"
@@ -37,6 +32,5 @@
         android:textSize="20sp"
         android:onClick="aboutApp"
         android:clickable="true"
-        android:padding="20dp"
-        />
+        android:padding="20dp" />
 </LinearLayout>

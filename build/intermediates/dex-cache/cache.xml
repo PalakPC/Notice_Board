@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\9b27746e28f3e362c03d5d2984afaea9be7fcdb4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fde2ba0e008843b97eeb9a53fadbf5448a9a2a5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\6a781defc6779860d19014fafa3e9b3a2fea78c4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2a03d31be69db2b88534680e05ff9dc58ed7dafd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\87b399f536d52b94a24b74e42e2d24d3ee27dd86\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c89d1c6b0f78c73969d0a723b9141d71e77c30dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\406ae2eb4a6b399b9e36f52829229d11368612d7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e7b632dac22d31fce223ab6744c1b9347e06078b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\a5566ac14987c02dff01d414bc2371bb8b74f5e0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4ddc080f1c45bcb307ea5ab5abc420a33a8d0068\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\52542eb3734b9510f0362c2994172b43c0d167b8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_307224ef8a85d9450c6d8f21c0d185987ae55c45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\bb4ab9164d65919cf6d834e066ee5a410338a29d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8e9bfbc32005eadaa00c2725991909e257b3b257\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_30387ca391ef9f484020ca6421a01b8f910ded1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\2dd6a8d9fe3e8b7582d64205fd23edb1e92fa2fd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a7abf099cfa7bed17ce53a005ae8d65e17293e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\1e24adc9f598d7fa7fffe84057191d5004b3d6ce\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bde998306a80ff357f016443053ca814a994fd0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d07cbcc4f00dcdaac50ed21e3da11b39b6c1df32">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5f94b3c088f067d9ef72d3bc02c41636c3507884\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\585f44cbd98467297ac80e20a3d47a8b4f49f302\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_516705a2639982e9f018169d6a82a245482276d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_59cbea1fad91c5a64181f5c37880bd1de518e438\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\8193a8e395278c12ea67c39f971ed1618dc1d704\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2cd7ca1403d7a083b6797c308b1ad4c56bdf0260\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\choud\.android\build-cache\81ff59f2a5acbcb75bf10e285b8c46d87047d1c4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\choud\Documents\JEC_CS_Noticeboard\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8576508b5894015f2756bae279724fb568b1d3ab\classes.dex" />
+    </item>
+
+</items>
