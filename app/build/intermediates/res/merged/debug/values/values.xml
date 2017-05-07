@@ -678,9 +678,9 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about_app">This app aims at bringing the departmental notices to students\' smartphones.\n\nLogin details shall be provided by the administrator.
-    \n\nCurrent administrator: Palak Choudhary, CSE 8th semester</string>
+        \n\nCurrent administrator: Palak Choudhary, CSE 8th semester</string>
     <string name="about_cse">Jabalpur Engineering College, Jabalpur was established on 7 July, 1947 when the entire global chess board was witnessing a dramatic change. It was born just a few months before India broke the shackles of British slavery.
-    \n\nThis illustrious Institution got the distinction of being the Second Engineering College in India and is the premier institution of Engineering Education in Central India. Thanks to the inspired vision of the great pioneering Principal Dr. S.P. Chakravarti.
+        \n\nThis illustrious Institution got the distinction of being the Second Engineering College in India and is the premier institution of Engineering Education in Central India. Thanks to the inspired vision of the great pioneering Principal Dr. S.P. Chakravarti.
         \n\nFrom a very small room in old Robertson College, this tiny icon has grown into a mighty oak tree, which is now 63 years old and has celebrated its Diamond Jubilee in the year 2007.</string>
     <string name="about_dev">Palak Choudhary, JEC CSE 2017</string>
     <string name="action_about">About</string>
@@ -701,9 +701,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
     <string name="prompt_email">Enrollment Number</string>
     <string name="prompt_password">Password</string>
     <string name="search_menu_title">Search</string>
@@ -719,7 +717,6 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

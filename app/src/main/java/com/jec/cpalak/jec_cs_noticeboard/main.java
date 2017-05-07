@@ -4,10 +4,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
-import android.widget.TextView;
 import android.content.Intent;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -27,7 +27,6 @@ public class main extends AppCompatActivity {
     private static String url = "https://palakpc.github.io/json.txt";
     ArrayList<HashMap<String, String>> noticelist;
     saveSharedPreference session;
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         session = new saveSharedPreference(getApplicationContext());
@@ -38,14 +37,12 @@ public class main extends AppCompatActivity {
         lv = (ListView) findViewById(R.id.list);
         new getNotice().execute();
     }
-
     public boolean onCreateOptionsMenu(Menu menu) {
 
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main2, menu);
         return true;
     }
-
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_about:
@@ -58,7 +55,6 @@ public class main extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
     private class getNotice extends AsyncTask<Void, Void, Void> {
         @Override
         protected void onPreExecute() {
@@ -67,7 +63,6 @@ public class main extends AppCompatActivity {
             pDialog.setMessage("Please wait...");
             pDialog.setCancelable(false);
         }
-
         @Override
         protected Void doInBackground(Void... arg0) {
             HttpHandler sh = new HttpHandler();
@@ -88,7 +83,8 @@ public class main extends AppCompatActivity {
                         notices.put("content", content);
                         noticelist.add(notices);
                     }
-                } catch (final JSONException e) {
+                }
+                catch (final JSONException e) {
                     Log.e(TAG, "Json parsing error: " + e.getMessage());
                     runOnUiThread(new Runnable() {
                         @Override
@@ -100,7 +96,8 @@ public class main extends AppCompatActivity {
                         }
                     });
                 }
-            } else {
+            }
+            else {
                 Log.e(TAG, "Couldn't get json from server.");
                 runOnUiThread(new Runnable() {
                     @Override
@@ -115,7 +112,6 @@ public class main extends AppCompatActivity {
             }
             return null;
         }
-
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
@@ -124,11 +120,19 @@ public class main extends AppCompatActivity {
             ListAdapter adapter = new SimpleAdapter(
                     main.this, noticelist,
                     R.layout.list_item, new String[]{"title", "date",
-                    "content"}, new int[]{R.id.title,
-                    R.id.date, R.id.content});
+                    }, new int[]{R.id.title,
+                    R.id.date});
             lv.setAdapter(adapter);
+            lv.setOnItemClickListener(new ListView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> a, View v, int i, long l) {
+                    HashMap<String, String> val = (HashMap<String, String>) a.getItemAtPosition(i);
+                    Intent mainIntent = new Intent(main.this, notice.class);
+                    mainIntent.putExtra("map", val);
+                    startActivity(mainIntent);
+                }
+            });
+
         }
     }
 }
-
-

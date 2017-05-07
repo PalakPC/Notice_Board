@@ -54,6 +54,13 @@
                 <action android:name="android.intent.action.Main" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.jec.cpalak.jec_cs_noticeboard.notice"
+            android:label="JEC CSE Notice Board" >
+            <intent-filter>
+                <action android:name="android.intent.action.Main" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

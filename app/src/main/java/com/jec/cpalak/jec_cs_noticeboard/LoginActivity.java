@@ -170,7 +170,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                     mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
                 }
             });
-        } else {
+        }
+        else {
             mProgressView.setVisibility(show ? View.VISIBLE : View.GONE);
             mLoginFormView.setVisibility(show ? View.GONE : View.VISIBLE);
         }
@@ -224,7 +225,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         protected Boolean doInBackground(Void... params) {
             try {
                 Thread.sleep(2000);
-            } catch (InterruptedException e) {
+            }
+            catch (InterruptedException e) {
                 return false;
             }
             for (String credential : DUMMY_CREDENTIALS) {
@@ -267,15 +269,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         inflater.inflate(R.menu.main, menu);
         return true;
     }
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
-        switch (item.getItemId())
-        {
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
             case R.id.action_about:
                 Intent myIntent = new Intent(LoginActivity.this, about.class);
                 startActivity(myIntent);
                 return true;
-
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -284,4 +283,3 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         setContentView(R.layout.trouble);
     }
 }
-

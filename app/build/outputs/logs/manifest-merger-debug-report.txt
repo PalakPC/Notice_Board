@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:2:1-50:12
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
 		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml
@@ -30,7 +30,7 @@ ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManif
 	android:name
 		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:9:22-64
 application
-ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:11:5-48:19
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:11:5-55:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\choud\.android\build-cache\585f44cbd98467297ac80e20a3d47a8b4f49f302\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\choud\.android\build-cache\bb4ab9164d65919cf6d834e066ee5a410338a29d\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\choud\.android\build-cache\1e24adc9f598d7fa7fffe84057191d5004b3d6ce\output\AndroidManifest.xml:26:5-20
@@ -95,6 +95,12 @@ ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManif
 		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:43:13-49
 	android:name
 		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:42:13-34
+activity#com.jec.cpalak.jec_cs_noticeboard.notice
+ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:48:9-54:20
+	android:label
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml:49:13-35
 uses-sdk
 INJECTED from C:\Users\choud\Documents\JEC_CS_Noticeboard\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\choud\.android\build-cache\585f44cbd98467297ac80e20a3d47a8b4f49f302\output\AndroidManifest.xml:21:5-23:62
