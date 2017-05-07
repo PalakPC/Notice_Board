@@ -19,5 +19,5 @@
     <string name="about_app">This app aims at bringing the departmental notices to students\' smartphones.\n\nLogin details shall be provided by the administrator.
         \n\nCurrent administrator: Palak Choudhary, CSE 8th semester</string>
     <string name="trouble">Please contact administrator.</string>
-    <string name="url">https://palakpc.github.io/json.txt</string>
+    <string name="url">https://palakpc.github.io/json</string>
 </resources>

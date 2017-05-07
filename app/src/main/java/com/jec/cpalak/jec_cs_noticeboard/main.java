@@ -24,7 +24,7 @@ public class main extends AppCompatActivity {
     private String TAG = main.class.getSimpleName();
     private ProgressDialog pDialog;
     private ListView lv;
-    private static String url = "https://palakpc.github.io/json.txt";
+    private static String url = "https://palakpc.github.io/json";
     ArrayList<HashMap<String, String>> noticelist;
     saveSharedPreference session;
     protected void onCreate(Bundle savedInstanceState) {

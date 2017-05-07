@@ -2,6 +2,7 @@ package com.jec.cpalak.jec_cs_noticeboard;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.app.ProgressDialog;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -29,15 +30,28 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.content.Intent;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import android.util.Log;
+import android.widget.Toast;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import static android.Manifest.permission.READ_CONTACTS;
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+    private String TAG2 = LoginActivity.class.getSimpleName();
+    private ProgressDialog pDialog;
+    private static String url2 = "https://palakpc.github.io/login";
     private static final int REQUEST_READ_CONTACTS = 0;
     private static final String[] DUMMY_CREDENTIALS = new String[]{
             "0201CS131044:helloworld"
     };
+    ArrayList<HashMap<String, String>> loginList;
     private UserLoginTask mAuthTask = null;
     private AutoCompleteTextView mEmailView;
     private EditText mPasswordView;
@@ -71,6 +85,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         });
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
+        loginList = new ArrayList<>();
     }
     private void populateAutoComplete() {
         if (!mayRequestContacts()) {
@@ -139,6 +154,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         }
         else {
             showProgress(true);
+            new GetLogin().execute();
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
         }
@@ -229,7 +245,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             catch (InterruptedException e) {
                 return false;
             }
-            for (String credential : DUMMY_CREDENTIALS) {
+
+            /*for (String credential : DUMMY_CREDENTIALS) {
                 String[] pieces = credential.split(":");
                 if (pieces[0].equalsIgnoreCase(mEmail)) {
                     Log.d("tag", "yes");
@@ -239,8 +256,21 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                 }
                 else
                     return false;
+            }*/
+            String mPassword2 = md5(mPassword);
+            String user;
+            String password;
+
+            for(HashMap<String, String> map : loginList){
+                user = map.get("user");
+                if(user.equalsIgnoreCase(mEmail)){
+                    password = map.get("password");
+                    if (password.equals(mPassword2)){
+                        return true;
+                    }
+                }
             }
-            return true;
+            return false;
         }
         @Override
         protected void onPostExecute(final Boolean success) {
@@ -281,5 +311,114 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     }
     public void trouble(View c){
         setContentView(R.layout.trouble);
+    }
+
+    /**
+     * Async task class to get json by making HTTP call
+     */
+    private class GetLogin extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            // Showing progress dialog
+            pDialog = new ProgressDialog(LoginActivity.this);
+            pDialog.setMessage("Please wait...");
+            pDialog.setCancelable(false);
+            pDialog.show();
+
+        }
+
+        @Override
+        protected Void doInBackground(Void... arg0) {
+            HttpHandler sh = new HttpHandler();
+
+            // Making a request to url and getting response
+            String jsonStr = sh.makeServiceCall(url2);
+
+            Log.e(TAG2, "Response from url: " + jsonStr);
+
+            if (jsonStr != null) {
+                try {
+                    JSONObject jsonObj = new JSONObject(jsonStr);
+
+                    // Getting JSON Array node
+                    JSONArray login = jsonObj.getJSONArray("logins");
+
+                    // looping through All Contacts
+                    for (int i = 0; i < login.length(); i++) {
+                        JSONObject c = login.getJSONObject(i);
+
+                        String user = c.getString("user");
+                        String password = c.getString("password");
+
+                        HashMap<String, String> loginDetails = new HashMap<>();
+
+                        // adding each child node to HashMap key => value
+                        loginDetails.put("user", user);
+                        loginDetails.put("password", password);
+
+                        // adding contact to contact list
+                        loginList.add(loginDetails);
+                    }
+                } catch (final JSONException e) {
+                    Log.e(TAG2, "Json parsing error: " + e.getMessage());
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(getApplicationContext(),
+                                    "Json parsing error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG)
+                                    .show();
+                        }
+                    });
+
+                }
+            } else {
+                Log.e(TAG2, "Couldn't get json from server.");
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getApplicationContext(),
+                                "Couldn't get json from server. Check LogCat for possible errors!",
+                                Toast.LENGTH_LONG)
+                                .show();
+                    }
+                });
+
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            super.onPostExecute(result);
+            // Dismiss the progress dialog
+            if (pDialog.isShowing())
+                pDialog.dismiss();
+            /**
+             * Updating parsed JSON data into ListView
+             * */
+        }
+
+    }
+    public String md5(String s) {
+        try {
+            // Create MD5 Hash
+            MessageDigest digest = java.security.MessageDigest.getInstance("MD5");
+            digest.update(s.getBytes());
+            byte messageDigest[] = digest.digest();
+
+            // Create Hex String
+            StringBuffer hexString = new StringBuffer();
+            for (int i=0; i<messageDigest.length; i++)
+                hexString.append(Integer.toHexString(0xFF & messageDigest[i]));
+            return hexString.toString();
+
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return "";
     }
 }

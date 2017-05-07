@@ -1,7 +1,7 @@
-#Sun May 07 19:37:55 IST 2017
-base.0=C\:\\Users\\choud\\Documents\\JEC_CS_Noticeboard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5f94b3c088f067d9ef72d3bc02c41636c3507884
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\choud\\Documents\\JEC_CS_Noticeboard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_59cbea1fad91c5a64181f5c37880bd1de518e438\\classes.dex
-base.1=C\:\\Users\\choud\\Documents\\JEC_CS_Noticeboard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_59cbea1fad91c5a64181f5c37880bd1de518e438
-file.0=C\:\\Users\\choud\\Documents\\JEC_CS_Noticeboard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5f94b3c088f067d9ef72d3bc02c41636c3507884\\classes.dex
+#Sun May 07 20:16:28 IST 2017
+base.0=C\:\\Users\\choud\\Documents\\JEC_CS_Noticeboard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_59cbea1fad91c5a64181f5c37880bd1de518e438
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\choud\\Documents\\JEC_CS_Noticeboard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5f94b3c088f067d9ef72d3bc02c41636c3507884\\classes.dex
+base.1=C\:\\Users\\choud\\Documents\\JEC_CS_Noticeboard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5f94b3c088f067d9ef72d3bc02c41636c3507884
+file.0=C\:\\Users\\choud\\Documents\\JEC_CS_Noticeboard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_59cbea1fad91c5a64181f5c37880bd1de518e438\\classes.dex
